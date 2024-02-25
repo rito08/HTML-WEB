@@ -1,0 +1,106 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #edaeca;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #faf6f8;
+    color: rgb(251, 250, 249);
+    padding: 2% 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #94094e;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #275d08;
+}
+
+.slider-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 10px;
+    scroll-snap-align: start;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+}
+
+.slide h3, .slide p {
+    margin: 5px 0;
+}
+
+section.productos ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+}
+
+section.productos li {
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #f55009;
+    border-radius: 5px;
+}
+
+section.nosotros {
+    background-color: #cf4f4f;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+section.nosotros a {
+    color: #f2efef;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f9f8f8;
+    color: rgb(255, 213, 0);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.logo img {
+    width: 200px; /* Tamaño mediano para el logo */
+}
+.productos li img {
+    width: 200px; /* Tamaño mediano para las imágenes de los productos */
+}
